@@ -1,0 +1,96 @@
+body{
+  background-color: #F9EEED;
+  text-align: center;
+  padding: 20px;
+  font-family: "Caveat";
+  font-weight: 400;
+  font-size: 35px;
+}
+
+form{
+  margin: 20px;
+}
+
+.custom-select{
+  margin: auto;
+}
+
+.custom-select select {
+  font-size: 30px;/*hide original SELECT element:*/
+  background-color: transparent;
+}
+
+img:hover {
+  -webkit-transform: scale(2,2);
+}
+
+
+.logo-img{
+  width:100px;
+  height:100px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.btn{
+  font-family: 'Caveat';
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 7px;
+}
+
+.search-btn{
+  background-color: pink;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-color: pink;
+}
+
+.btn:hover{
+  color: pink;
+}
+
+.buttons-section{
+  margin-top: 20px;
+}
+
+.search-section{
+  margin-top: 20px;
+}
+
+.search-input{
+  border-color: pink;
+  border-width: thin;
+  margin-right: 0;
+  font-family: "Caveat";
+  font-weight: 400;
+  font-size: 18px;
+  width: 300px;
+}
+
+.search-icon{
+  margin-bottom: 3px;
+}
+
+.row{
+  margin: 20px;
+}
+
+.col-4{
+  width: 30%;
+  margin: 15px;
+  padding: 0;
+}
+
+.card{
+  background-color: transparent;
+  border-width: 0;
+}
+
+.card-img-top{
+  margin-left: 80px;
+  width: 200px;
+  height: 180px;
+}
